@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #3b82f6;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+.half-underline::after {
+  content: "";
+  margin-left: 2rem;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 40%;
+  height: 6px; /* Set the height of the underline */
+  background-color: blue; /* Inherit the text color */
+  border-radius: 100%;
+}
+@media (max-width: 960px) {
+  .half-underline::after {
+    top: 28%;
+  }
+}
+@media (max-width:720px){
+  .half-underline::after{
+    top: 20%;
+  }
+}
+@media(max-width:365px){
+  .half-underline::after{
+    top:30%
+  }
+}
+.content {
+  width: 90% !important;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+}
