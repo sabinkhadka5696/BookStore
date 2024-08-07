@@ -91,6 +91,7 @@ function ReactSlick() {
                   Book Now
                 </button>
                 <Modal
+                className=""
                   open={open}
                   toggleOpen={toggleOpen}
                   aria-labelledby="modal-modal-title"
