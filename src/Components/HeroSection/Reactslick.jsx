@@ -108,7 +108,7 @@ function ReactSlick() {
 
             <div className="animate__animated  animate__flipInX animate__delay-0s flex-1">
               <img
-                src="./src/assets/dad.jpg"
+                src="/assets/dad.jpg"
                 alt="Book"
                 className="h-[85vh]  md:h-[85vh]"
               />
@@ -153,7 +153,7 @@ function ReactSlick() {
 
             <div className="animate__animated  animate__fadeInRight animate__delay-0s flex-1 h-full w-full">
               <img
-                src="./src/assets/book8.jpg"
+                src="/assets/book8.jpg"
                 alt="Book"
                 className="h-[85vh]  md:h-[85vh]  "
               />
@@ -201,7 +201,7 @@ function ReactSlick() {
 
             <div className="animate__animated  animate__fadeInUp animate__delay-0s flex-1">
               <img
-                src="./src/assets/book7.jpg"
+                src="/assets/book7.jpg"
                 alt="Book"
                 className="h-[85vh]  md:h-[85vh] "
               />
@@ -229,7 +229,7 @@ function ReactSlick() {
               </div>
             </div>
             <div className="md:relative md:left-72 md:top-9 px-4 md:px-0 animate__animated  animate__fadeInTopRight animate__delay-0s">
-              <img src="./src/assets/book2.jpg" alt="Book Bundle" />
+              <img src="/assets/book2.jpg" alt="Book Bundle" />
             </div>
           </div>
         </div>
@@ -254,7 +254,7 @@ function ReactSlick() {
               </button>
             </div>
             <div className="md:relative md:left-72 md:top-28 px-4 md:px-0 animate__animated  animate__fadeInUp animate__delay-0s">
-              <img src="./src/assets/book3.jpg" alt="Kids Book" />
+              <img src="/assets/book3.jpg" alt="Kids Book" />
             </div>
           </div>
         </div> */}

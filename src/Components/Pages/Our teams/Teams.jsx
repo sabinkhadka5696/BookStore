@@ -11,38 +11,38 @@ function Teams() {
       id: 1,
       name: "Whitney Francis",
       title: "Copy writer",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
       icons: <FaLinkedin />,
     },
     {
       id: 2,
       name: "Leonard Krasner",
       title: "Senior Designer",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
     {
       id: 3,
       name: "Whitney Francis",
       title: "Copy writer",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
     {
       id: 4,
       name: "Floyd Miles",
       title: "Principal Designer",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
     {
       id: 5,
       name: "Emily Selman",
       title: "VP, User Experience",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
     {
       id: 6,
       name: "Kristin Watson",
       title: "VP, Human Resources",
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
   ];
 
@@ -51,7 +51,7 @@ function Teams() {
       <div className="">
         <img
           className="w-full h-[40vh] opacity-60"
-          src="./src/banner/banner.jpg"
+          src="/banner/banner.jpg"
         ></img>
         <div className="absolute top-[48%] left-[75%] transform -translate-y-[50%] -translate-x-[50%] bg-gradient-to-r from-orange-500 via-pink-500 to-yellow-400 bg-clip-text text-transparent text-center py-4 px-7 flex">
           <Link to="/">

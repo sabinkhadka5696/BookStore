@@ -5,7 +5,7 @@ import { FaHeart, FaLinkedin, FaSquareTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 function SingleProduct() {
-  const [showImage, setShowImage] = useState("./src/assets/wonder.jpg");
+  const [showImage, setShowImage] = useState("/assets/wonder.jpg");
 
   return (
     <div className="content">
@@ -17,28 +17,28 @@ function SingleProduct() {
           <img src={showImage} className="aspect-square object-contain max-w-[32rem]" />
           <div className="flex gap-3 flex-wrap">
             <img
-              src="./src/assets/wonder.jpg"
+              src="/assets/wonder.jpg"
               width={40}
               className="cursor-pointer"
-              onClick={() => setShowImage("./src/assets/wonder.jpg")}
+              onClick={() => setShowImage("/assets/wonder.jpg")}
             />
             <img
-              src="./src/assets/book5.jpg"
+              src="/assets/book5.jpg"
               width={40}
               className="cursor-pointer"
-              onClick={() => setShowImage("./src/assets/book5.jpg")}
+              onClick={() => setShowImage("/assets/book5.jpg")}
             />
             <img
-              src="./src/assets/book6.jpg"
+              src="/assets/book6.jpg"
               width={40}
               className="cursor-pointer"
-              onClick={() => setShowImage("./src/assets/book6.jpg")}
+              onClick={() => setShowImage("/assets/book6.jpg")}
             />
             <img
-              src="./src/assets/book4.jpg"
+              src="/assets/book4.jpg"
               width={40}
               className="cursor-pointer"
-              onClick={() => setShowImage("./src/assets/book4.jpg")}
+              onClick={() => setShowImage("/assets/book4.jpg")}
             />
           </div>
         </div>

@@ -129,7 +129,7 @@ function NavBar() {
           <Typography as="a" variant="h6" className="cursor-pointer ">
             <Link to="/">
               <img
-                src="./src/assets/logo.jpg"
+                src="/assets/logo.jpg"
                 alt="Logo"
                 className="md:w-[3.4rem] w-[3rem] "
               />

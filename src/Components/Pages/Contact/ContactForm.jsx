@@ -37,7 +37,7 @@ function ContactForm() {
             <Link to="/">
               <img
                 className="pt-8 border-r-4 border-gray-300 px-4"
-                src="./src/assets/logo.jpg"
+                src="/assets/logo.jpg"
                 alt="Logo"
               />
             </Link>

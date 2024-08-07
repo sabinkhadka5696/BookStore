@@ -24,7 +24,7 @@ function Blog() {
   const items = [
     {
       id: 1,
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
       subname: "Co-Founder / CTO",
       date: "Mar 16,2020",
       header: "Marketing",
@@ -34,7 +34,7 @@ function Blog() {
     },
     {
       id: 2,
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
       subname: "Co-Founder / CTO",
       date: "Mar 16,2020",
       header: "Marketing",
@@ -44,7 +44,7 @@ function Blog() {
     },
     {
       id: 3,
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
       subname: "Co-Founder / CTO",
       date: "Mar 16,2020",
       header: "Marketing",
@@ -54,7 +54,7 @@ function Blog() {
     },
     {
       id: 4,
-      image: "./src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
       subname: "Co-Founder / CTO",
       date: "Mar 16,2020",
       header: "Marketing",
@@ -66,7 +66,7 @@ function Blog() {
   return (
     <>
       <div>
-        <img className="w-full h-[40vh] bg-[url('./src/banner/banner2.jpg')] bg-no-repeat bg-cover"></img>
+        <img className="w-full h-[40vh] bg-[url('/banner/banner2.jpg')] bg-no-repeat bg-cover"></img>
         <div className="absolute top-[48%] left-[87%] transform -translate-y-[50%] -translate-x-[50%] bg-gradient-to-r from-white via-pink-500 to-white bg-clip-text text-transparent text-center py-4 px-7 flex">
           <Link to="/">
             <h1 className="text-xl font-bold font-head">Home</h1>

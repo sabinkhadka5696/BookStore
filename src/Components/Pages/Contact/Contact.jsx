@@ -12,7 +12,7 @@ function Contact() {
       <div>
         <img
           className="w-full h-[40vh] object-cover"
-          src="./src/banner/banner3.jpg"
+          src="/banner/banner3.jpg"
         ></img>
         <div className="absolute top-[50%] left-[80%] transform -translate-y-[50%] -translate-x-[50%] bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent text-center py-4 px-7 flex items-center justify-center">
           <Link to="/">

@@ -12,7 +12,7 @@ function SingleBlog() {
             <div class="text-gray-600 mb-6 flex items-center gap-2 font-body">
               <img
                 className="w-9 rounded-xl"
-                src="./src/assets/image1.jpg"
+                src="/assets/image1.jpg"
               ></img>
               <span>By Jordan Mischev</span> |
               <span>Published on November 14, 2022</span> |
@@ -21,7 +21,7 @@ function SingleBlog() {
             <div className="flex lg:flex-row md:flex-col sm:flex-col space-x-6">
               <img
                 className="lg:w-full h-[100vh] rounded-lg object-cover md:w-[50vw]"
-                src="./src/assets/image1.jpg"
+                src="/assets/image1.jpg"
               ></img>
               <div className="w-full lg:w-1/4 md:w-3/5 sm:mt-5 ">
                 <h2 className="text-[1.7rem] font-semibold mb-4 text-gray-600 hover:underline">
@@ -29,19 +29,19 @@ function SingleBlog() {
                 </h2>
                 <ul className="space-y-5 font-head">
                   <li className="flex items-center gap-3">
-                    <img className="w-16" src="./src/assets/image1.jpg"></img>
+                    <img className="w-16" src="/assets/image1.jpg"></img>
                     <Link className="hover:text-blue-600" to="">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </Link>
                   </li>
                   <li className="flex items-center gap-3 border-t-4 pt-4 border-t-cyan-200">
-                    <img className="w-16" src="./src/assets/image1.jpg"></img>
+                    <img className="w-16" src="/assets/image1.jpg"></img>
                     <Link className="hover:text-blue-600 " to="/">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </Link>
                   </li>
                   <li className="flex items-center gap-3 border-t-4 pt-4 border-b-4 pb-4 border-cyan-200 b">
-                    <img className="w-16" src="./src/assets/image1.jpg"></img>
+                    <img className="w-16" src="/assets/image1.jpg"></img>
                     <Link className="hover:text-blue-600 " to="/">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </Link>

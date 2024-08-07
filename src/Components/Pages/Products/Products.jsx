@@ -26,7 +26,7 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book.jpg",
+      image: "/assets/book.jpg",
       icons: <FaLinkedin />,
     },
     {
@@ -35,7 +35,7 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book6.jpg",
+      image: "/assets/book6.jpg",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book2.jpg",
+      image: "/assets/book2.jpg",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book3.jpg",
+      image: "/assets/book3.jpg",
     },
     {
       id: 5,
@@ -59,7 +59,7 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book4.jpg",
+      image: "/assets/book4.jpg",
     },
     {
       id: 6,
@@ -67,14 +67,14 @@ function Products() {
       subname: "September 14, 2016",
       subtitle:
         "Sanctus et elitr accusam nonumy dolor elitr stet dolore et sanctus, sed ipsum kasd gubergren takimata sed. Amet vero et.",
-      image: "./src/assets/book5.jpg",
+      image: "/assets/book5.jpg",
     },
   ];
 
   return (
     <body className="bg-gray-200 h-full">
       <div
-        className="w-full h-[40vh] bg-[url('./src/banner/banner1.jpg')] bg-no-repeat bg-cover opacity-70"
+        className="w-full h-[40vh] bg-[url('/banner/banner1.jpg')] bg-no-repeat bg-cover opacity-70"
       ></div>
       <div className="absolute top-[50%] left-[80%] transform -translate-y-[50%] -translate-x-[50%] bg-gradient-to-r from-black via-pink-500 to-light-green-700 bg-clip-text text-transparent text-center py-4 px-7 flex">
         <Link to="/">
